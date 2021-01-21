@@ -10,8 +10,8 @@
 
 function first3(string){
   return(
-    // your code here
-  )
+	 console.log(string.slice(0,3))
+  );
 }
 
 module.exports = first3;
